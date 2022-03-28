@@ -1,0 +1,83 @@
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 2rem;
+}
+
+header h3 {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  mix-blend-mode: normal;
+}
+
+header .type {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+
+header .type p {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.25);
+  border: 1px solid #000000;
+  border-left: 2px solid #ffffff;
+  width: 76px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sub-head {
+  padding-top: 10rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.city {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.city h1 {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 75px;
+
+  letter-spacing: 0.05em;
+
+  color: #ffffff;
+
+  mix-blend-mode: normal;
+}
+
+.city span {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0.05em;
+
+  color: #ffffff;
+
+  mix-blend-mode: normal;
+}
