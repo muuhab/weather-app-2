@@ -1,4 +1,5 @@
 import React from "react";
+import { ReactComponent as Weather } from '../../images/Current-Icon.svg';
 import "./header.css";
 const Header = () => {
   return (
@@ -14,7 +15,8 @@ const Header = () => {
         <div className="city">
           <h1>New Cairo</h1>
           <span>Friday 20, 2020</span>
-          <img src='./images/Current-Icon.svg' alt='cloudy'/>
+          <Weather/>
+          <p>Cloudy</p>
         </div>
 
         <div className="degree">
@@ -22,9 +24,9 @@ const Header = () => {
             72<span>&#176;</span>
           </h1>
           <p>
-            81<span>&#176;</span> / 63<span>&#176;</span>
+            81<span>&#176;</span> / <span className="degree-min">63</span><span>&#176;</span>
           </p>
-          <p>Cloudy throughout the day</p>
+          <p className="degree-text">Cloudy throughout the day</p>
         </div>
       </div>
     </main>

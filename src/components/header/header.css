@@ -81,3 +81,57 @@ header .type p {
 
   mix-blend-mode: normal;
 }
+
+.city p {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
+
+  color: #ffffff;
+
+  mix-blend-mode: normal;
+}
+
+.degree {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 1rem;
+}
+
+.degree h1 {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 144px;
+  line-height: 169px;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+}
+
+.degree p {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: 0.05em;
+
+  color: #ffffff;
+}
+.degree .degree-min {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.degree .degree-text {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #ffffff;
+}
