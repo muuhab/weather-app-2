@@ -1,6 +1,6 @@
 header {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   padding-top: 2rem;
 }
@@ -57,9 +57,9 @@ header .type button {
 }
 
 .sub-head {
-  padding-top: 10rem;
+  padding-top: 5rem;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 

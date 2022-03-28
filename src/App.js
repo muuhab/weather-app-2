@@ -1,5 +1,6 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
+import Forcast from "./components/forcast/Forcast";
 import Header from "./components/header/Header";
 import { lat, long } from "./utils/index";
 function App() {
@@ -9,7 +10,7 @@ function App() {
   const [loading, setLoading] = useState(false);
 
   const fetchWeather = async () => {
-    setLoading(true);
+    setLoading(false);
     await axios
       .get(`https://api.darksky.net/forecast/${key}/${lat},%${long}`)
       .then((data) => {
@@ -23,7 +24,8 @@ function App() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [key, lat, long]);
   return (
-    <div>{loading ? null : <Header current={weather} daily={daily} />}</div>
+    <div className="home">{loading ? null : <><Header current={weather} daily={daily} />
+    <Forcast/></>}</div>
   );
 }
 
